@@ -595,13 +595,13 @@ def console_map_string_to_font(s, fontCharX, fontCharY):
     donothing()
 
 def console_is_fullscreen():
-    return false
+    return False
 
 def console_set_fullscreen(fullscreen):
     donothing()
 
 def console_is_window_closed():
-    return false
+    return False
 
 def console_set_window_title(title):
     donothing()
@@ -613,7 +613,7 @@ def console_credits_reset():
     donothing()
 
 def console_credits_render(x, y, alpha):
-    return false
+    return False
 
 def console_flush():
     donothing()
@@ -626,7 +626,7 @@ def console_set_default_foreground(con, col):
     donothing()
 
 def console_clear(con):
-    return false
+    return False
 
 def console_put_char(con, x, y, c, flag=BKGND_DEFAULT):
     donothing()
@@ -647,7 +647,7 @@ def console_set_background_flag(con, flag):
     donothing()
 
 def console_get_background_flag(con):
-    return false
+    return False
 
 def console_set_alignment(con, alignment):
     donothing()
@@ -719,7 +719,7 @@ def console_check_for_keypress(flags=KEY_RELEASED):
     return k
 
 def console_is_key_pressed(key):
-    return false
+    return False
 
 def console_set_keyboard_repeat(initial_delay, interval):
     donothing()
@@ -939,10 +939,10 @@ def image_get_alpha(image,x,y) :
     return 0
 
 def image_is_pixel_transparent(image,x,y) :
-    return false
+    return False
 
 def image_load(filename):
-    return false
+    return False
 
 def image_from_console(console):
     return 0
@@ -1006,7 +1006,7 @@ def mouse_show_cursor(visible):
     donothing()
 
 def mouse_is_cursor_visible():
-    return false
+    return False
 
 def mouse_move(x, y):
     donothing()
@@ -1109,7 +1109,7 @@ def struct_get_name(struct):
     return ""
 
 def struct_is_mandatory(struct, name):
-    return false
+    return False
 
 def struct_get_type(struct, name):
     return 0
@@ -1121,7 +1121,7 @@ def parser_delete(parser):
     donothing()
 
 def parser_get_bool_property(parser, name):
-    return false
+    return False
 
 def parser_get_int_property(parser, name):
     return 0
@@ -1273,13 +1273,13 @@ def map_compute_fov(m, x, y, radius=0, light_walls=True, algo=FOV_RESTRICTIVE ):
     donothing()
 
 def map_is_in_fov(m, x, y):
-    return false
+    return False
 
 def map_is_transparent(m, x, y):
-    return false
+    return False
 
 def map_is_walkable(m, x, y):
-    return false
+    return False
 
 def map_delete(m):
     return 0
@@ -1319,7 +1319,7 @@ def path_get(p, idx):
     return 0, 0
 
 def path_is_empty(p):
-    return true
+    return True
 
 def path_walk(p, recompute):
     return None,None
@@ -1352,7 +1352,7 @@ def dijkstra_get(p, idx):
     return 0, 0
 
 def dijkstra_is_empty(p):
-    return true
+    return True
 
 def dijkstra_path_walk(p):
     return None,None
@@ -1431,10 +1431,10 @@ def bsp_father(node):
     return Bsp(0)
 
 def bsp_is_leaf(node):
-    return false
+    return False
 
 def bsp_contains(node, cx, cy):
-    return false
+    return False
 
 def bsp_find_node(node, cx, cy):
     return Bsp(0)
@@ -1569,7 +1569,7 @@ def heightmap_count_cells(hm, mi, ma):
     return 0
 
 def heightmap_has_land_on_border(hm, waterlevel):
-    return false
+    return False
 
 def heightmap_get_minmax(hm):
     return 0, 0
